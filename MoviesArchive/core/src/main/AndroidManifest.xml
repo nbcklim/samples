@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nbcnews.samplecode.moviesarchive.core" >
+
+    <application
+        android:name=".android.MoviesArchiveApp"
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+        <service
+            android:name=".android.UpdateIntentService"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>
